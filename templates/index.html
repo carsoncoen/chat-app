@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAN Chat Messenger</title>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+    <script src="/static/main.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        #messages { border: 1px solid #ccc; height: 300px; overflow-y: scroll; padding: 10px; margin-bottom: 10px; }
+        #input { width: 80%; }
+        #send { width: 18%; }
+    </style>
+</head>
+<body>
+    <h2>LAN Chat Messenger</h2>
+    <div id="messages"></div>
+    <input id="input" autocomplete="off" placeholder="Type your message..." />
+    <button id="send">Send</button>
+</body>
+</html> 
